@@ -7,10 +7,12 @@ import Education from './components/Education';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <About />
-      <WorkExperience />
-      <Education />
+      <div class="container">
+        <Header />
+        <About />
+        <WorkExperience />
+        <Education />
+      </div>
     </div>
   );
 }
