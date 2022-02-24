@@ -24,18 +24,6 @@ function Info({ data }) {
         left,
         right,
       )}
-
-      {/* <div className="row">
-        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-8 Info-left">
-          <h1>{data.name}</h1>
-          <h3>{data.description}</h3>
-        </div>
-        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 Info-right">
-          <img className='Info-profile-picture' src={profile} alt="Profile" />
-          <p>{data.mail}</p>
-          <p>{data.phone}</p>
-        </div>
-      </div> */}
     </div>
   );
 }
