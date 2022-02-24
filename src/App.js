@@ -1,17 +1,25 @@
+import { useLocation } from 'react-router-dom';
 import './App.scss';
-import Header from './components/Header';
-import About from './components/About';
-import WorkExperience from './components/WorkExperience';
-import Education from './components/Education';
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
+import Resume from './components/resume/Resume';
+import resumeEn from './data/resume.en.json';
+import resumeFr from './data/resume.fr.json';
 
 function App() {
+  const { pathname } = useLocation();
+  const resume = pathname === '/portfolio/fr' ? resumeFr : resumeEn;
+
   return (
-    <div className="App">
-      <div class="container">
+    <div className='App'>
+      <div className='container-fluid'>
         <Header />
-        <About />
-        <WorkExperience />
-        <Education />
+      </div>
+      <div className='container'>
+        <Resume data={resume} />
+      </div>
+      <div className='container-fluid'>
+        <Footer />
       </div>
     </div>
   );

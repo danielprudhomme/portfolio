@@ -1,9 +1,9 @@
 import './About.scss';
 
-function About() {
+function About({data}) {
   return (
     <div className="About">
-      à propos de daniel
+      {data}
     </div>
   );
 }

@@ -1,0 +1,43 @@
+.Info {
+
+  .Info-left {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+  }
+
+  .Info-right {
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    .Info-name-description {
+      margin-left: 15px;
+      display: flex;
+      flex-flow: column nowrap;
+      h1 {
+        font-weight: bold;
+      }
+    }
+  }
+
+  // .Info-right {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  // h1 {
+  //   // text-transform: uppercase;
+  //   font-weight: bold;
+  // }
+
+  .Info-profile-picture {
+    border-radius: 50%;
+    width: 150px;;
+  }
+}
