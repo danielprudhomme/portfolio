@@ -6,28 +6,31 @@
     "phone": "+33 6 71 14 45 66"
   },
   "about": "Titulaire d’un diplôme d’ingénieur en informatique et développeur web fullstack depuis 9 ans, j’ai travaillé pour des grands comptes, comme Vinci, AXA ou Natixis, où j’ai développé des applications web de bout en bout.\nLors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors.\nFort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
-  "experience": [
-    {
-      "company": "Société générale Securities services - SGSS",
-      "job": "Développeur fullstack .NET / Angular",
-      "location": {
-        "city": "Colombes",
-        "country": "France"
+  "experience": {
+    "title": "Expériences",
+    "list": [
+      {
+        "company": "Société générale Securities services",
+        "job": "Développeur fullstack .NET / Angular",
+        "location": {
+          "city": "Colombes",
+          "country": "France"
+        },
+        "startDate": "2020-11",
+        "endDate": "2022-07",
+        "description": "FundsAlert sur la plateforme Sg-market destinée aux gérants de fonds afin d’être notifié en tant réel de mouvement (deposit, redemption…)"
       },
-      "startDate": "2020-11",
-      "endDate": "2022-07",
-      "description": "FundsAlert sur la plateforme Sg-market destinée aux gérants de fonds afin d’être notifié en tant réel de mouvement (deposit, redemption…)"
-    },
-    {
-      "company": "AXA (Microsoft)",
-      "job": "Développeur .NET / Azure",
-      "location": {
-        "city": "Nanterre",
-        "country": "France"
-      },
-      "startDate": "2019-08",
-      "endDate": "2020-10",
-      "description": "Intégration de l'équipe Microsoft dans le cadre de la migration vers Azure PaaS d'un portefeuille d'applications AXA."
-    }
-  ]
+      {
+        "company": "AXA (Microsoft)",
+        "job": "Développeur .NET / Azure",
+        "location": {
+          "city": "Nanterre",
+          "country": "France"
+        },
+        "startDate": "2019-08",
+        "endDate": "2020-10",
+        "description": "Intégration de l'équipe Microsoft dans le cadre de la migration vers Azure PaaS d'un portefeuille d'applications AXA."
+      }
+    ]
+  }
 }

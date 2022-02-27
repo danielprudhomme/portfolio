@@ -20,10 +20,7 @@ function Info({ data }) {
 
   return (
     <div className='Info'>
-      {ColumnContainer(
-        left,
-        right,
-      )}
+      {ColumnContainer(left, right)}
     </div>
   );
 }
