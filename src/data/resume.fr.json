@@ -10,8 +10,7 @@
     "title": "Expériences",
     "list": [
       {
-        "company": "Société générale Securities services",
-        "job": "Développeur fullstack .NET / Angular",
+        "company": "SGSS",
         "location": {
           "city": "Colombes",
           "country": "France"
@@ -21,8 +20,7 @@
         "description": "FundsAlert sur la plateforme Sg-market destinée aux gérants de fonds afin d’être notifié en tant réel de mouvement (deposit, redemption…)"
       },
       {
-        "company": "AXA (Microsoft)",
-        "job": "Développeur .NET / Azure",
+        "company": "AXA",
         "location": {
           "city": "Nanterre",
           "country": "France"
@@ -30,6 +28,22 @@
         "startDate": "2019-08",
         "endDate": "2020-10",
         "description": "Intégration de l'équipe Microsoft dans le cadre de la migration vers Azure PaaS d'un portefeuille d'applications AXA."
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "list": [
+      {
+        "school": "ENSEIRB-MATMECA",
+        "diploma": "Diplôme d'ingénieur en informatique",
+        "location": {
+          "city": "Bordeaux",
+          "country": "France"
+        },
+        "startDate": "2020-11",
+        "endDate": null,
+        "description": "Filière Informatique. Option Parallélisme, Régulation et Calcul Distribué."
       }
     ]
   }

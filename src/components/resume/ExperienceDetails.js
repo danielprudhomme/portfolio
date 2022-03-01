@@ -1,23 +1,17 @@
 import ColumnContainer from '../layout/ColumnContainer';
+import StartEndDate from '../resume/StartEndDate';
 import './ExperienceDetails.scss';
 
-function dateToString(date) {
-  const month = ('00'+date.getMonth()).slice(-2);
-  const year = date.getFullYear();
-  return `${month}/${year}`;
-}
-
 function ExperienceDetails({ data }) {
-  const startDate = new Date(data.startDate);
-  const endDate = new Date(data.endDate);
-
   const left = <div>
-    <div className='ExperienceCompany'>{data.company}</div>
-    <div className='ExperienceLocation'>
-      <span className='City'>{data.location.city}</span> - <span className='Country'>{data.location.country}</span>
+    <div className='ExperienceLeft'>
+      <div className='Company'>{data.company}</div>
+      <div className='Location'>
+        <div className='City'>{data.location.city}</div>
+        <div className='Country'>, {data.location.country}</div>
+      </div>
     </div>
-    {/* <div className='ExperienceJob'>{data.job}</div> */}
-    <div>{dateToString(startDate)} - {dateToString(endDate)}</div>
+    <div>{StartEndDate(data.startDate, data.endDate)}</div>
   </div>;
 
   const right = <div>
