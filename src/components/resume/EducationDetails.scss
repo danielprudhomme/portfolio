@@ -1,0 +1,21 @@
+.EducationDetails {
+  .EducationLeft {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    .School {
+      font-weight: bold;
+      font-size: large;
+      margin-right: 5px;
+    }
+    .Location {
+      display: flex;
+      flex-flow: row nowrap;
+      font-size: small;
+      .Country {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

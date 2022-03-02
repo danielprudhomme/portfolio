@@ -36,14 +36,24 @@
     "list": [
       {
         "school": "ENSEIRB-MATMECA",
-        "diploma": "Diplôme d'ingénieur en informatique",
+        "diploma": "Diplôme d'ingénieur en Informatique.",
         "location": {
           "city": "Bordeaux",
           "country": "France"
         },
-        "startDate": "2020-11",
-        "endDate": null,
-        "description": "Filière Informatique. Option Parallélisme, Régulation et Calcul Distribué."
+        "startDate": "2010-09",
+        "endDate": "2013-06",
+        "description": "Option Parallélisme, Régulation et Calcul Distribué."
+      },
+      {
+        "school": "Prépa MPSI",
+        "location": {
+          "city": "La Rochelle",
+          "country": "France"
+        },
+        "startDate": "2008-09",
+        "endDate": "2010-06",
+        "description": "Classe préparatoire aux grandes écoles Math Physique."
       }
     ]
   }
