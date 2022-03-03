@@ -1,0 +1,20 @@
+.SkillList {
+  display: flex;
+  flex-flow: row wrap;
+
+  .Skill {
+    padding: 4px 16px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(77, 143, 181);
+    border-radius: 30px;
+    color: white;
+  }
+
+  &.small {
+    font-size: small;
+    .Skill {
+      padding: 3px 9px;
+    }
+  }
+}

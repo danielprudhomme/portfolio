@@ -3,7 +3,8 @@
     "name": "Daniel PRUD'HOMME",
     "description": "Développeur web fullstack",
     "mail": "daniel.prudhomme.pro@gmail.com",
-    "phone": "+33 6 71 14 45 66"
+    "phone": "+33 6 71 14 45 66",
+    "skills": ["C# / .NET", "Javascript", "Angular", "React"]
   },
   "about": "Titulaire d’un diplôme d’ingénieur en informatique et développeur web fullstack depuis 9 ans, j’ai travaillé pour des grands comptes, comme Vinci, AXA ou Natixis, où j’ai développé des applications web de bout en bout.\nLors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors.\nFort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
   "experience": {
@@ -17,7 +18,8 @@
         },
         "startDate": "2020-11",
         "endDate": "2022-07",
-        "description": "FundsAlert sur la plateforme Sg-market destinée aux gérants de fonds afin d’être notifié en tant réel de mouvement (deposit, redemption…)"
+        "description": "FundsAlert sur la plateforme Sg-market destinée aux gérants de fonds afin d’être notifié en temps réel de mouvement (deposit, redemption…)",
+        "environment": ["C# / .Net", ".Net Core", "Javascript", "Typescript", "Angular", "SQL Server", "PostgreSQL", "Kubernetes", "Docker", "Git", "Git Flow"]
       },
       {
         "company": "AXA",
@@ -27,7 +29,74 @@
         },
         "startDate": "2019-08",
         "endDate": "2020-10",
-        "description": "Intégration de l'équipe Microsoft dans le cadre de la migration vers Azure PaaS d'un portefeuille d'applications AXA."
+        "description": "Intégration de l'équipe Microsoft dans le cadre de la migration vers Azure PaaS d'un portefeuille d'applications AXA.",
+        "environment": ["C# / .NET", ".Net Core", "Blazor", "Node.js", "Azure", "Azure DevOps", "SQL Server"]
+      },
+      {
+        "company": "VINCI Construction",
+        "location": {
+          "city": "Rueil-malmaison",
+          "country": "France"
+        },
+        "startDate": "2017-11",
+        "endDate": "2019-07",
+        "description": "Application web PilotXS de gestion de chantier destinée aux conducteurs de travaux. Gestion du budget (pointages, factures, etc)",
+        "environment": ["C#", ".NET 4.7", "ASP.NET", "Entity Framework 6", "SQL Server", "Angular 4-7", "Redux", "Git", "Azure DevOps"]
+      },
+      {
+        "company": "Natixis",
+        "location": {
+          "city": "Paris",
+          "country": "France"
+        },
+        "startDate": "2017-01",
+        "endDate": "2017-11",
+        "description": "Application web OPALE de pilotage de l’épargne financière à destination de profils d’utilisateurs opérationnels ou stratégiques des réseaux Banque Populaire et Caisse d’Epargne.",
+        "environment": ["C#", ".NET 4.5", "ASP.NET MVC 5", "Entity Framework 6", "SQL Server", "Angular 2-4", "Git", "Azure DevOps"]
+      },
+      {
+        "company": "Addstones-Vanilla",
+        "location": {
+          "city": "Paris",
+          "country": "France"
+        },
+        "startDate": "2016-03",
+        "endDate": "2016-12",
+        "description": "Développement d’une application web pour les recruteurs destinée à proposer des tests techniques et fonctionnels aux candidats sous forme de QCM interactifs.",
+        "environment": ["AngularJS", "NodeJS", "Firebase", "Git"]
+      },
+      {
+        "company": "LATelec GmbH",
+        "location": {
+          "city": "Hambourg",
+          "country": "Allemagne"
+        },
+        "startDate": "2013-03",
+        "endDate": "2015-12",
+        "description": "Analyse des besoins des utilisateurs, design et développement d’évolutions, d’automatisation de processus et maintenance de deux logiciels internes à l’entreprise : - Un logiciel de gestion de la relation client (CRM), principalement Airbus, et les fournisseurs. - Un logiciel de gestion intégré (ERP) pour diriger le design et la production de harnais électriques destinés aux avions Airbus. Utilisé par une centaine de personnes au sein du groupe LATECOERE en France, Allemagne, Tunisie, Turquie et Mexique.",
+        "environment": ["C# .NET", "DevExpress", "MySQL", "Git"]
+      },
+      {
+        "company": "Sogeti",
+        "location": {
+          "city": "Bordeaux",
+          "country": "France"
+        },
+        "startDate": "2013-02",
+        "endDate": "2013-08",
+        "description": "Stage de fin d’étude : Développement de bout en bout d’une application Windows Phone permettant de lire et de partager du contenu multimédia dans le cadre d’un système de Home Networking, en collaboration avec le LabRI (Laboratoire de recherche informatique de Bordeaux).",
+        "environment": ["C# .NET", "Windows Phone", "WPF", "Git"]
+      },
+      {
+        "company": "Postech University",
+        "location": {
+          "city": "Pohang",
+          "country": "Corée du sud"
+        },
+        "startDate": "2013-02",
+        "endDate": "2013-08",
+        "description": "Stage de 2ème année dans le laboratoire de langage de programmation : Optimisation de Plasma, un framework MapReduce écrit en OCaml : interprétation et lecture d’articles scientifiques, analyse du code source du framework Hadoop écrit en Java, implémentation du tri par clés et par valeurs de hachage.",
+        "environment": ["OCaml", "Java"]
       }
     ]
   },

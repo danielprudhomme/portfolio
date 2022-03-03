@@ -1,6 +1,7 @@
 import ColumnContainer from '../layout/ColumnContainer';
-import StartEndDate from '../resume/StartEndDate';
 import './ExperienceDetails.scss';
+import SkillList from './SkillList';
+import StartEndDate from './StartEndDate';
 
 function ExperienceDetails({ data }) {
   const left = <div>
@@ -14,8 +15,9 @@ function ExperienceDetails({ data }) {
     <div>{StartEndDate(data.startDate, data.endDate)}</div>
   </div>;
 
-  const right = <div>
-    {data.description}
+  const right = <div className='ExperienceRight'>
+    <div>{data.description}</div>
+    <div class="Skills-section">{SkillList(data.environment, true)}</div>
   </div>
 
   return (

@@ -18,4 +18,13 @@
       }
     }
   }
+
+  .ExperienceRight {
+    display: flex;
+    flex-flow: column;
+
+    .Skills-section {
+      margin-top: 10px;
+    }
+  }
 }
