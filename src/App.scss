@@ -8,4 +8,10 @@
     font-size: calc(1.0rem + 0.9vw);
     color: $primaryColor;
   }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 }

@@ -3,7 +3,6 @@ import './ExperienceDetails.scss';
 import StartEndDate from './StartEndDate';
 
 function ExperienceDetails({ data }) {
-  console.log(data);
   const left = <div>
     <div className='ExperienceLeft'>
       <div className='Company'>{data.company}</div>

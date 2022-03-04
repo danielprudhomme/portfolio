@@ -1,7 +1,6 @@
 import profile from '../../images/profile.jpg';
 import ColumnContainer from '../layout/ColumnContainer';
 import './Info.scss';
-import SkillList from './SkillList';
 
 function Info({ data }) {
   const left =
@@ -16,7 +15,7 @@ function Info({ data }) {
       <div className='Info-name-description'>
         <h1>{data.name}</h1>
         <h3>{data.description}</h3>
-        {SkillList(data.skills)}
+        {/* {SkillList(data.skills)} */}
       </div>
     </div>;
 
