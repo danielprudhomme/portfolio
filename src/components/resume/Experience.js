@@ -10,7 +10,7 @@ function Experience({ data }) {
   const title = <h2>{data.title}</h2>;
 
   return (
-    <div className='Experience'>
+    <div className='Experience ResumeSection'>
       {ColumnContainer(title, null, false)}
       <ul>
         {listItems}

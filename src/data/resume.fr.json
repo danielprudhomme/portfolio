@@ -10,7 +10,7 @@
   "skills": {
     "title": "Compétences",
     "list": [
-      "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "Azure", "Docker", "Kubernetes"
+      "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "SQL", "SQL Server", "Azure", "Docker", "Kubernetes"
     ]
   },
   "languages": {

@@ -10,7 +10,7 @@ function Languages({ data }) {
   );
 
   return (
-    <div className='Languages'>
+    <div className='Languages ResumeSection'>
       {ColumnContainer(title, null, false)}
       <ul>
         {listItems}

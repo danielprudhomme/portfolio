@@ -19,7 +19,7 @@ function Info({ data }) {
     </div>;
 
   return (
-    <div className='Info'>
+    <div className='Info ResumeSection'>
       {ColumnContainer(left, right)}
     </div>
   );

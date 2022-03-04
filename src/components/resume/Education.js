@@ -10,7 +10,7 @@ function Education({ data }) {
   );
 
   return (
-    <div className="Education">
+    <div className='Education ResumeSection'>
       {ColumnContainer(title, null, false)}
       <ul>
         {listItems}
