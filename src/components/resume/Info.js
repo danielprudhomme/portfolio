@@ -15,7 +15,6 @@ function Info({ data }) {
       <div className='Info-name-description'>
         <h1>{data.name}</h1>
         <h3>{data.description}</h3>
-        {/* {SkillList(data.skills)} */}
       </div>
     </div>;
 
