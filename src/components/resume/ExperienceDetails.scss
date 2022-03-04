@@ -1,3 +1,5 @@
+@import '../../variables.scss';
+
 .ExperienceDetails {
   .ExperienceLeft {
     display: flex;
@@ -23,8 +25,10 @@
     display: flex;
     flex-flow: column;
 
-    .Skills-section {
-      margin-top: 10px;
+    .Environment {
+      font-size: small;
+      font-style: italic;
+      color: $primaryColor;
     }
   }
 }

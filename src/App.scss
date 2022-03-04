@@ -1,9 +1,11 @@
+@import './variables.scss';
+
 .App {
   font-family: Calibri, sans-serif;
   color: #333;
 
   h2 {
     font-size: calc(1.0rem + 0.9vw);
-    color: rgb(77, 143, 181);
+    color: $primaryColor;
   }
 }

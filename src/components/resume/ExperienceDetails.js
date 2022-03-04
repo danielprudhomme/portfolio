@@ -1,9 +1,9 @@
 import ColumnContainer from '../layout/ColumnContainer';
 import './ExperienceDetails.scss';
-import SkillList from './SkillList';
 import StartEndDate from './StartEndDate';
 
 function ExperienceDetails({ data }) {
+  console.log(data);
   const left = <div>
     <div className='ExperienceLeft'>
       <div className='Company'>{data.company}</div>
@@ -15,9 +15,17 @@ function ExperienceDetails({ data }) {
     <div>{StartEndDate(data.startDate, data.endDate)}</div>
   </div>;
 
+  let environmentSection = null;
+  if (data.environment && data.environment.length > 0) {
+    const environmentList = data.environment?.join(', ');
+    environmentSection = <div className='Environment'>
+      {environmentList}
+    </div>;
+  }
+
   const right = <div className='ExperienceRight'>
     <div>{data.description}</div>
-    <div class="Skills-section">{SkillList(data.environment, true)}</div>
+    {environmentSection}
   </div>
 
   return (
