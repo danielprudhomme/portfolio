@@ -5,6 +5,13 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
+
+    .Address {
+      font-size: small;
+      .Country {
+        text-transform: uppercase;
+      }
+    }
   }
 
   .Info-right {
