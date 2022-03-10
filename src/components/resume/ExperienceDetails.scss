@@ -3,9 +3,8 @@
 .ExperienceDetails {
   .ExperienceLeft {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
+    flex-flow: column nowrap;
+    align-items: flex-end;
     .Company {
       font-weight: bold;
       font-size: large;
@@ -29,6 +28,25 @@
       font-size: small;
       font-style: italic;
       color: $primaryColor;
+    }
+  }
+
+  .ExperienceTitle {
+    font-size: larger;
+    color: $primaryColor;
+    font-weight: bold;
+  }
+
+  .ExperienceTaskList {
+    padding-left: 20px;
+    font-size: smaller;
+    li::before {
+      content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: $primaryColor; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
     }
   }
 }

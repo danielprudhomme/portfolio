@@ -1,0 +1,186 @@
+{
+  "info": {
+    "name": "Priscilla CASTALDO",
+    "description": "Coordinatrice transport international",
+    "mail": "p.castaldo@hotmail.fr",
+    "phone": "+33 6 62 89 68 61",
+    "picture": "profile-prisc.jpg",
+    "address": {
+      "numberAndStreet": "84 route du villard",
+      "zipCode": "74550",
+      "city": "Perrignier",
+      "country": "France"
+    }
+  },
+  "skills": {
+    "title": "Logiciels",
+    "resumeLocation": "bottom",
+    "list": [
+      "SAP",
+      "Akuiteo",
+      "AS400"
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "list": [
+      {
+        "language": "Anglais",
+        "level": "Courant"
+      },
+      {
+        "language": "Espagnol",
+        "level": "Courant"
+      },
+      {
+        "language": "Italien",
+        "level": "Courant"
+      },
+      {
+        "language": "Allemand",
+        "level": "Conversationnel"
+      },
+      {
+        "language": "Portugais",
+        "level": "Elémentaire"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expériences",
+    "list": [
+      {
+        "company": "Axens",
+        "location": {
+          "city": "Rueil-malmaison (92)"
+        },
+        "startDate": "2017-07",
+        "endDate": "2022-03",
+        "title": "Coordinatrice expediting et logistique",
+        "description": "Gestion multiprojets depuis l'expediting fournisseurs et transport multimodal vers usines et clients",
+        "tasks": [
+          "Gestion des DA et commandes d’achat sur SAP",
+          "Suivi des commandes fournisseur (KOM, relances,documentaires, analyse planning mensuel)",
+          "Elaboration des solutions de transports selon délais, coûts, fiscalité et législation",
+          "Anticipation, préconisation au chef de projet sur l’emballage, restriction, contraintes transport liées au pays et matériel (dont hors gabarit, colis lourds)",
+          "Emission, gestion des licences/listes d’importations en Chine",
+          "Tâches administratives : émissions documents d’exportation, importation, reporting, facturation",
+          "Livraison Client (Argentine, Arabie Saoudite, Chine, Europe, Russie) ou workshop (Chine, Roumanie)"
+        ]
+      },
+      {
+        "company": "Technip FMC",
+        "location": {
+          "city": "La Garenne Colombes (92)"
+        },
+        "startDate": "2015-11",
+        "endDate": "2017-06",
+        "title": "Coordinatrice logistique",
+        "description": "Coordination du transport matériel/équipements hors gabarit provenant d’Europe, Asie et Moyen-Orient vers les Yards en Chine et le site en Russie",
+        "tasks": [
+          "Team leader d’une équipe de 6 personnes",
+          "Environ 120 expéditions par semaine",
+          "Conseils, anticipation des problématiques pays",
+          "Gestion des achats transport",
+          "Optimisation des coûts de transport",
+          "Renseignement, diffusion, gestion du reporting",
+          "Tâches administratives diverses : contrôle conformité des documents de transport et établissement documents d’exportation et importation"
+        ]
+      },
+      {
+        "company": "Pumpen und Drucklufttechnik Technik Maschinenbau",
+        "location": {
+          "city": "Hambourg",
+          "country": "Allemagne"
+        },
+        "startDate": "2015-02",
+        "endDate": "2015-07",
+        "title": "Agent transit export et commerciale",
+        "description": "Revente et expéditions de matériels industriels électriques aux entreprises BTP en Afrique du nord, Soudan et Arabie Saoudite.",
+        "tasks": [
+          "Négociation fournisseurs (allemand, anglais, italien)",
+          "Vérification de la marchandise et organisation du transport aérien/maritime",
+          "Tâches administratives : préparation des documents d’expédition (a-z), déclaration douane sous TELOS"
+        ]
+      },
+      {
+        "company": "Deutschakademie",
+        "location": {
+          "city": "Hambourg",
+          "country": "Allemagne"
+        },
+        "startDate": "2014-10",
+        "endDate": "2015-01",
+        "description": "Cours intensifs d’allemand"
+      },
+      {
+        "company": "Calypso Nautical Center",
+        "title": "Assitante manager",
+        "location": {
+          "city": "Melipilla et Jujuy",
+          "country": "Chili et Argentine"
+        },
+        "startDate": "2013-10",
+        "endDate": "2014-06",
+        "description": "Organisation des cours de bateaux et relation client",
+        "tasks": [
+          "Autre : éco-tourisme- Région de Jujuy en Argentine",
+          "Woofing dans une communauté Quechua- Activités quotidiennes agricoles et aide au développement touristique de la communauté."
+        ]
+      },
+      {
+        "company": "SDV Projets Industriels (Bolloré logistic)",
+        "title": "Agent de transit projets industriels",
+        "location": {
+          "city": "La Garenne Colombes (92)"
+        },
+        "startDate": "2011-02",
+        "endDate": "2013-09",
+        "description": "Organisation du transport maritime et aérien de matériel industriel et engin de chantier (+300T) depuis l’Europe vers l’Afrique et le Brésil par conteneur FCL/LCL, Flat rack, conventionnel pour des entreprises du CAC 40.<br />Analyse du fret pour solution logistique adaptée <br />Organisation de positionnement de conteneur en usine.<br /> Instructions BL/ LTA et réalisation de divers BIETC (documents d’importation taxés)<br />Suivi des expéditions, reporting clients et facturation"
+      },
+      {
+        "company": "Bolloré Africa Logistic",
+        "title": "Gestionnaire comptes d’escales et litiges",
+        "location": {
+          "city": "Puteaux (92)"
+        },
+        "startDate": "2009-02",
+        "endDate": "2011-02",
+        "description": "Gestion administrative et financière de portefeuille armateurs<br />Travail en amont avec les agents portuaires d’Afrique de l’ouest<br /> Facturation des débours et prestations portuaires aux armateurs<br /> Gestion des tarifs et rapprochements bancaires<br />Gestion des litiges"
+      },
+      {
+        "company": "Forclum énergies services (Eiffage)",
+        "title": "Agent de transit export projets industriel",
+        "location": {
+          "city": "Cergy-Pontoise (95)"
+        },
+        "startDate": "2007-09",
+        "endDate": "2008-09",
+        "description": "Organisation, acheminement du transport du matériel électrique depuis l’Europe vers l’Afrique (Algérie et Bénin) sur les chantiers pour un contrat clé en main avec le client<br /> Suivi des achats, gestion des priorités, élaboration des documents douaniers et d’export, crédit documentaire et gestion des litiges"
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "list": [
+      {
+        "school": "Pôle universitaire Léonard de Vinci ",
+        "diploma": "Licence de management et conception de la chaine logistique et transport.",
+        "location": {
+          "city": "La Défense"
+        },
+        "startDate": "2007-09",
+        "endDate": "2008-10"
+      },
+      {
+        "school": "Université de Cergy-Pontoise",
+        "diploma": "D.U.T Gestion Logistique et transport",
+        "location": {
+          "city": "Argenteuil"
+        },
+        "startDate": "2005-09",
+        "endDate": "2007-10"
+      }
+    ]
+  }
+}

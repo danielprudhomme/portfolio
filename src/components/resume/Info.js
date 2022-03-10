@@ -1,3 +1,4 @@
+import profilePrisc from '../../images/profile-prisc.jpg';
 import profile from '../../images/profile.jpg';
 import ColumnContainer from '../layout/ColumnContainer';
 import './Info.scss';
@@ -17,7 +18,7 @@ function Info({ data }) {
 
   const right =
     <div className='Info-right'>
-      <img className='Info-profile-picture' src={profile} alt="Profile" />
+      <img className='Info-profile-picture' src={data.picture === 'profile-prisc.jpg' ? profilePrisc : profile} alt="Profile" />
       <div className='Info-name-description'>
         <h1>{data.name}</h1>
         <h3>{data.description}</h3>

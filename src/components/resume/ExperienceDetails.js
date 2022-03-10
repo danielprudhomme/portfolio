@@ -8,7 +8,7 @@ function ExperienceDetails({ data }) {
       <div className='Company'>{data.company}</div>
       <div className='Location'>
         <div className='City'>{data.location.city}</div>
-        <div className='Country'>, {data.location.country}</div>
+        {data.location.country ? <div className='Country'>, {data.location.country}</div> : null}
       </div>
     </div>
     <div>{StartEndDate(data.startDate, data.endDate)}</div>
@@ -22,8 +22,17 @@ function ExperienceDetails({ data }) {
     </div>;
   }
 
+  let tasks = null;
+  if (data.tasks && data.tasks.length > 0) {
+    tasks = <ul className='ExperienceTaskList'>
+      {data.tasks.map(task => <li>{task}</li>)}
+    </ul>
+  }
+
   const right = <div className='ExperienceRight'>
+    {data.title ? <h3 className='ExperienceTitle'>{data.title}</h3> : null}
     <div>{data.description}</div>
+    {tasks}
     {environmentSection}
   </div>
 

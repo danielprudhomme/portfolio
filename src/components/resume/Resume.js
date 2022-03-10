@@ -11,10 +11,11 @@ function Resume({ data }) {
     <div className="Resume">
       <Info data={data.info} />
       <About data={data.about} />
-      <Skills data={data.skills} />
+      {!data.skills.resumeLocation || data.skills.resumeLocation === 'top' ? <Skills data={data.skills} /> : null}
       <Experience data={data.experience} />
       <Education data={data.education} />
       <Languages data={data.languages} />
+      {data.skills.resumeLocation && data.skills.resumeLocation === 'bottom' ? <Skills data={data.skills} /> : null}
     </div>
   );
 }

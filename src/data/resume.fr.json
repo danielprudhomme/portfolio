@@ -4,6 +4,7 @@
     "description": "Développeur web fullstack",
     "mail": "daniel.prudhomme.pro@gmail.com",
     "phone": "+33 6 71 14 45 66",
+    "picture": "profile.jpg",
     "address": {
       "numberAndStreet": "84 route du villard",
       "zipCode": "74550",
@@ -14,6 +15,7 @@
   "about": "Titulaire d’un diplôme d’ingénieur en informatique et développeur web fullstack depuis 9 ans, j’ai travaillé pour des grands comptes, comme Vinci, AXA ou Natixis, où j’ai développé des applications web de bout en bout.\nLors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors.\nFort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
   "skills": {
     "title": "Compétences",
+    "resumeLocation": "top",
     "list": [
       "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "SQL", "SQL Server", "Azure", "Docker", "Kubernetes"
     ]
