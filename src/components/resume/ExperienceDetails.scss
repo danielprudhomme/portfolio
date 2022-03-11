@@ -13,9 +13,12 @@
     .Location {
       display: flex;
       flex-flow: row nowrap;
+      align-items: center;
       font-size: small;
       .LocationIcon {
-        width: 18px;
+        height: 15px;
+        width: 15px;
+        opacity: 0.7;
       }
       .Country {
         text-transform: uppercase;
