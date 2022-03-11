@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .Info {
   .Info-left {
@@ -7,11 +7,22 @@
     flex-flow: column nowrap;
     justify-content: flex-end;
 
+    .InfoContact {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
     .Address {
-      font-size: small;
       .Country {
         text-transform: uppercase;
       }
+    }
+
+    .InfoIcon {
+      color: $primaryColor;
+      margin-left: 3px;
     }
   }
 
@@ -38,6 +49,6 @@
 
   .Info-profile-picture {
     border-radius: 50%;
-    width: 150px;;
+    width: 150px;
   }
 }

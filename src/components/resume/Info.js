@@ -1,3 +1,4 @@
+import { Envelope, HouseDoor, Telephone } from 'react-bootstrap-icons';
 import profilePrisc from '../../images/profile-prisc.jpg';
 import profile from '../../images/profile.jpg';
 import ColumnContainer from '../layout/ColumnContainer';
@@ -6,14 +7,18 @@ import './Info.scss';
 function Info({ data }) {
   let address = null;
   if (data.address) {
-    address = <div className='Address'>{data.address.numberAndStreet} - {data.address.zipCode} {data.address.city}, <span className='Country'>{data.address.country}</span></div>
+    let country = null;
+    if (data.country) {
+      country = <span className='Country'>, {data.address.country}</span>
+    }
+    address = <span className='Address'>{data.address.numberAndStreet} - {data.address.zipCode} {data.address.city}{country}</span>;
   }
 
   const left =
     <div className='Info-left'>
-      <p>{data.mail}</p>
-      <p>{data.phone}</p>
-      {address}
+      <div className='InfoContact'>{data.mail} <Envelope className='InfoIcon' /></div>
+      <div className='InfoContact'>{data.phone} <Telephone className='InfoIcon' /></div>
+      <div className='InfoContact'>{address}<HouseDoor className='InfoIcon' /></div>
     </div>;
 
   const right =

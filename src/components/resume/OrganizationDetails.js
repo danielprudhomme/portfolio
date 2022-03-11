@@ -1,4 +1,4 @@
-import mapIcon from '../../images/icons/map.png';
+import { PinMapFill } from 'react-bootstrap-icons';
 import StartEndDate from '../resume/StartEndDate';
 import './OrganizationDetails.scss';
 
@@ -8,7 +8,7 @@ function OrganizationDetails(data) {
       <div className='Organization'>{data.organization}</div>
 
       <div className='Location'>
-        <img className='LocationIcon' src={mapIcon} alt="Location" />
+        <PinMapFill className='LocationIcon' />
         <div className='City'>{data.location.city}</div>
         {data.location.country ? <div className='Country'>, {data.location.country}</div> : null}
       </div>
