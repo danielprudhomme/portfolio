@@ -1,3 +1,4 @@
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import './App.scss';
 import Footer from './components/layout/Footer';
@@ -7,22 +8,27 @@ import resumePriscFr from './data/resume-prisc.fr.json';
 import resumeEn from './data/resume.en.json';
 import resumeFr from './data/resume.fr.json';
 
+function useQuery() {
+  const { search } = useLocation();
+  return React.useMemo(() => new URLSearchParams(search), [search]);
+}
+
 function App() {
-  const { pathname } = useLocation();
+  const query = useQuery();
+  const lang = query.get('lang');
+  const person = query.get('p');
 
   let resume = null;
-  switch (pathname) {
-    case '/portfolio/fr':
-      resume = resumeFr;
-      break;
-    case '/portfolio/en':
+  if (person === 'prisc') {
+    resume = resumePriscFr;
+  }
+  else {
+    if (lang === 'en') {
       resume = resumeEn;
-      break;
-    case '/portfolio/prisc/fr':
-      resume = resumePriscFr;
-      break;
-    default:
+    }
+    else {
       resume = resumeFr;
+    }
   }
 
   return (

@@ -6,7 +6,7 @@ import StartEndDate from './StartEndDate';
 function ExperienceDetails({ data }) {
   const left = <div>
     <div className='ExperienceLeft'>
-      <div className='Company'>{data.company}<i class="bi-alarm"></i></div>
+      <div className='Company'>{data.company}</div>
 
       <div className='Location'>
         <img className='LocationIcon' src={mapIcon} alt="Location" />
@@ -28,7 +28,7 @@ function ExperienceDetails({ data }) {
   let tasks = null;
   if (data.tasks && data.tasks.length > 0) {
     tasks = <ul className='ExperienceTaskList'>
-      {data.tasks.map(task => <li>{task}</li>)}
+      {data.tasks.map(task => <li key={task}>{task}</li>)}
     </ul>
   }
 
