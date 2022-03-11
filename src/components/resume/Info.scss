@@ -1,5 +1,6 @@
-.Info {
+@import '../../variables.scss';
 
+.Info {
   .Info-left {
     height: 100%;
     display: flex;
@@ -25,8 +26,12 @@
       margin-left: 15px;
       display: flex;
       flex-flow: column nowrap;
-      h1 {
+      .InfoName {
         font-weight: bold;
+      }
+      .InfoDescription {
+        font-weight: bold;
+        color: $primaryColor;
       }
     }
   }

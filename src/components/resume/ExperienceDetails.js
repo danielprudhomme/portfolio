@@ -1,21 +1,9 @@
-import mapIcon from '../../images/icons/map.png';
 import ColumnContainer from '../layout/ColumnContainer';
 import './ExperienceDetails.scss';
-import StartEndDate from './StartEndDate';
+import OrganizationDetails from './OrganizationDetails';
 
 function ExperienceDetails({ data }) {
-  const left = <div>
-    <div className='ExperienceLeft'>
-      <div className='Company'>{data.company}</div>
-
-      <div className='Location'>
-        <img className='LocationIcon' src={mapIcon} alt="Location" />
-        <div className='City'>{data.location.city}</div>
-        {data.location.country ? <div className='Country'>, {data.location.country}</div> : null}
-      </div>
-      <div className='StartEndDate'>{StartEndDate(data.startDate, data.endDate)}</div>
-    </div>
-  </div>;
+  const left = OrganizationDetails({ ...data, organization: data.company });
 
   let environmentSection = null;
   if (data.environment && data.environment.length > 0) {
