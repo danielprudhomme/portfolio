@@ -117,8 +117,8 @@
         "company": "Calypso Nautical Center",
         "title": "Assitante manager",
         "location": {
-          "city": "Melipilla et Jujuy",
-          "country": "Chili et Argentine"
+          "city": "Melipilla",
+          "country": "Chili"
         },
         "startDate": "2013-10",
         "endDate": "2014-06",
@@ -146,7 +146,13 @@
         },
         "startDate": "2009-02",
         "endDate": "2011-02",
-        "description": "Gestion administrative et financière de portefeuille armateurs<br />Travail en amont avec les agents portuaires d’Afrique de l’ouest<br /> Facturation des débours et prestations portuaires aux armateurs<br /> Gestion des tarifs et rapprochements bancaires<br />Gestion des litiges"
+        "description": "Gestion administrative et financière de portefeuille armateurs",
+        "tasks": [
+          "Travail en amont avec les agents portuaires d’Afrique de l’ouest",
+          "Facturation des débours et prestations portuaires aux armateurs",
+          "Gestion des tarifs et rapprochements bancaires",
+          "Gestion des litiges"
+        ]
       },
       {
         "company": "Forclum énergies services (Eiffage)",
@@ -156,7 +162,10 @@
         },
         "startDate": "2007-09",
         "endDate": "2008-09",
-        "description": "Organisation, acheminement du transport du matériel électrique depuis l’Europe vers l’Afrique (Algérie et Bénin) sur les chantiers pour un contrat clé en main avec le client<br /> Suivi des achats, gestion des priorités, élaboration des documents douaniers et d’export, crédit documentaire et gestion des litiges"
+        "description": "Organisation, acheminement du transport du matériel électrique depuis l’Europe vers l’Afrique (Algérie et Bénin) sur les chantiers pour un contrat clé en main avec le client",
+        "tasks": [
+          "Suivi des achats, gestion des priorités, élaboration des documents douaniers et d’export, crédit documentaire et gestion des litiges"
+        ]
       }
     ]
   },
