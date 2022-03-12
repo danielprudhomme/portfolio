@@ -57,7 +57,7 @@
         "startDate": "2017-07",
         "endDate": "2022-03",
         "title": "Coordinatrice expediting et logistique",
-        "description": "Gestion multiprojets depuis l'expediting fournisseurs et transport multimodal vers usines et clients",
+        "description": "Gestion multiprojets depuis l'expediting fournisseurs et transport multimodal vers usines et clients.",
         "tasks": [
           "Gestion des DA et commandes d’achat sur SAP",
           "Suivi des commandes fournisseur (KOM, relances,documentaires, analyse planning mensuel)",
@@ -76,7 +76,7 @@
         "startDate": "2015-11",
         "endDate": "2017-06",
         "title": "Coordinatrice logistique",
-        "description": "Coordination du transport matériel/équipements hors gabarit provenant d’Europe, Asie et Moyen-Orient vers les Yards en Chine et le site en Russie",
+        "description": "Coordination du transport matériel/équipements hors gabarit provenant d’Europe, Asie et Moyen-Orient vers les Yards en Chine et le site en Russie.",
         "tasks": [
           "Team leader d’une équipe de 6 personnes",
           "Environ 120 expéditions par semaine",
@@ -122,7 +122,7 @@
         },
         "startDate": "2013-10",
         "endDate": "2014-06",
-        "description": "Organisation des cours de bateaux et relation client",
+        "description": "Organisation des cours de bateaux et relation client.",
         "tasks": [
           "Autre : éco-tourisme- Région de Jujuy en Argentine",
           "Woofing dans une communauté Quechua- Activités quotidiennes agricoles et aide au développement touristique de la communauté."
@@ -152,7 +152,7 @@
         },
         "startDate": "2009-02",
         "endDate": "2011-02",
-        "description": "Gestion administrative et financière de portefeuille armateurs",
+        "description": "Gestion administrative et financière de portefeuille armateurs.",
         "tasks": [
           "Travail en amont avec les agents portuaires d’Afrique de l’ouest",
           "Facturation des débours et prestations portuaires aux armateurs",
@@ -162,7 +162,7 @@
       },
       {
         "company": "Forclum énergies services (Eiffage)",
-        "title": "Agent de transit export projets industriel",
+        "title": "Agent de transit export projets industriel.",
         "location": {
           "city": "Cergy-Pontoise (95)"
         },
@@ -179,8 +179,8 @@
     "title": "Formation",
     "list": [
       {
-        "school": "Pôle universitaire Léonard de Vinci ",
-        "diploma": "Licence de management et conception de la chaine logistique et transport.",
+        "school": "Pôle universitaire Léonard de Vinci",
+        "diploma": "Licence de management et conception de la chaine logistique et transport",
         "location": {
           "city": "La Défense"
         },
