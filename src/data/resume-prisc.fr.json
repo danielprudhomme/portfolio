@@ -136,7 +136,13 @@
         },
         "startDate": "2011-02",
         "endDate": "2013-09",
-        "description": "Organisation du transport maritime et aérien de matériel industriel et engin de chantier (+300T) depuis l’Europe vers l’Afrique et le Brésil par conteneur FCL/LCL, Flat rack, conventionnel pour des entreprises du CAC 40.<br />Analyse du fret pour solution logistique adaptée <br />Organisation de positionnement de conteneur en usine.<br /> Instructions BL/ LTA et réalisation de divers BIETC (documents d’importation taxés)<br />Suivi des expéditions, reporting clients et facturation"
+        "description": "Organisation du transport maritime et aérien de matériel industriel et engin de chantier (+300T) depuis l’Europe vers l’Afrique et le Brésil par conteneur FCL/LCL, Flat rack, conventionnel pour des entreprises du CAC 40.",
+        "tasks": [
+          "Analyse du fret pour solution logistique adaptée",
+          "Organisation de positionnement de conteneur en usine",
+          "Instructions BL/ LTA et réalisation de divers BIETC (documents d’importation taxés)",
+          "Suivi des expéditions, reporting clients et facturation"
+        ]
       },
       {
         "company": "Bolloré Africa Logistic",
