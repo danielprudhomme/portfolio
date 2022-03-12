@@ -8,10 +8,13 @@ function Info({ data }) {
   let address = null;
   if (data.address) {
     let country = null;
-    if (data.country) {
+    if (data.address.country) {
       country = <span className='Country'>, {data.address.country}</span>
     }
-    address = <span className='Address'>{data.address.numberAndStreet} - {data.address.zipCode} {data.address.city}{country}</span>;
+    address = <div className='Address'>
+      <div>{data.address.numberAndStreet}</div>
+      <div>{data.address.zipCode} {data.address.city}{country}</div>
+    </div>;
   }
 
   const left =
@@ -26,7 +29,9 @@ function Info({ data }) {
       <img className='Info-profile-picture' src={data.picture === 'profile-prisc.jpg' ? profilePrisc : profile} alt="Profile" />
       <div className='Info-name-description'>
         <h1 className='InfoName'>{data.name}</h1>
-        <h3 className='InfoDescription'>{data.description}</h3>
+        <div className='InfoDescription'>{data.description}</div>
+        <div className='InfoDescription'>{data.description2}</div>
+        <div>{data.subdescription}</div>
       </div>
     </div>;
 
