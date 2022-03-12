@@ -7,12 +7,8 @@
     "mail": "daniel.prudhomme.pro@gmail.com",
     "phone": "+33 6 71 14 45 66",
     "picture": "profile.jpg",
-    "address": {
-      "numberAndStreet": "84 route du villard",
-      "zipCode": "74550",
-      "city": "Perrignier",
-      "country": "France"
-    }
+    "address": "Haute-Savoie (74)",
+    "country": "France"
   },
   "about": "Titulaire d’un diplôme d’ingénieur en informatique, j'ai travaillé en tant que développeur web fullstack depuis 9 ans pour des grands comptes (Société générale, AXA, Vinci...). Lors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors. Fort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
   "skills": {

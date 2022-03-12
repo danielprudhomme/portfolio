@@ -11,20 +11,16 @@
     .InfoContact {
       display: flex;
       flex-flow: row nowrap;
-      align-items: flex-start;
+      align-items: center;
       justify-content: flex-end;
-      margin-bottom: 5px;
     }
 
-    .Address {
-      .Country {
-        text-transform: uppercase;
-      }
+    .Country {
+      text-transform: uppercase;
     }
 
     .InfoIcon {
       color: $primaryColor;
-      margin-top: 4px;
       margin-left: 3px;
     }
   }

@@ -5,23 +5,12 @@ import ColumnContainer from '../layout/ColumnContainer';
 import './Info.scss';
 
 function Info({ data }) {
-  let address = null;
-  if (data.address) {
-    let country = null;
-    if (data.address.country) {
-      country = <span className='Country'>, {data.address.country}</span>
-    }
-    address = <div className='Address'>
-      <div>{data.address.numberAndStreet}</div>
-      <div>{data.address.zipCode} {data.address.city}{country}</div>
-    </div>;
-  }
-
+  const country = data.country ? <span className='Country'>, {data.country}</span> : null;
   const left =
     <div className='Info-left'>
       <div className='InfoContact'>{data.mail} <Envelope className='InfoIcon' /></div>
       <div className='InfoContact'>{data.phone} <Telephone className='InfoIcon' /></div>
-      <div className='InfoContact'>{address}<HouseDoor className='InfoIcon' /></div>
+      <div className='InfoContact'>{data.address}{country}<HouseDoor className='InfoIcon' /></div>
     </div>;
 
   const right =
