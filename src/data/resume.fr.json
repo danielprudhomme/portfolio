@@ -57,7 +57,7 @@
           "country": "France"
         },
         "startDate": "2020-11",
-        "endDate": "2022-07",
+        "endDate": "2021-12",
         "description": "Développement fullstack d'applications B2B sur la plateforme SG Market",
         "tasks": [
           "Fund Alerts : service d'alertes en temps réel pour informer les gérants de fonds des mouvements importants sur leurs actifs (rachat, souscription), selon des critères que le gérant de fonds aura lui-même défini, en fonction de ses priorités et des caractéristiques de son portefeuille.",
