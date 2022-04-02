@@ -23,11 +23,11 @@ function App() {
     resume = resumePriscFr;
   }
   else {
-    if (lang === 'en') {
-      resume = resumeEn;
+    if (lang === 'fr') {
+      resume = resumeFr;
     }
     else {
-      resume = resumeFr;
+      resume = resumeEn;
     }
   }
 

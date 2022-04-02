@@ -1,5 +1,186 @@
 {
   "info": {
-    "name": "Daniel PRUD'HOMME"
+    "name": "Daniel PRUD'HOMME",
+    "description": "Fullstack Web Developer",
+    "description2": "C# .NET - Angular - React - Azure",
+    "subdescription": "",
+    "mail": "daniel.prudhomme.pro@gmail.com",
+    "phone": "+33 6 71 14 45 66",
+    "picture": "profile.jpg",
+    "address": "Haute-Savoie (74)",
+    "country": "France"
+  },
+  "about": "Holder of a Master’s degree in computer science, I worked as a fullstack web developer for 9 years for big companies (Société Générale, AXA, Vinci...). During these missions, I was able to analyze the functional needs of my clients, choose technical solutions, then design and carry out the development of the desired web applications until its deployment. I am now very interested in blockchain development and this is where I want to improve.",
+  "skills": {
+    "title": "Skills",
+    "resumeLocation": "top",
+    "list": [
+      "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "SQL", "SQL Server", "Azure", "Docker", "Kubernetes"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "list": [
+      {
+        "language": "French",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "language": "German",
+        "level": "Notions"
+      },
+      {
+        "language": "Italian",
+        "level": "Notions"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Work Experience",
+    "list": [
+      {
+        "company": "Société Générale Securities Services",
+        "location": {
+          "city": "Colombes",
+          "country": "France"
+        },
+        "startDate": "2020-11",
+        "endDate": "2021-12",
+        "description": "Fullstack development of B2B applications on the SG Market platform",
+        "tasks": [
+          "Fund Alerts: real-time alert service to inform fund managers of major movements in their assets (redemption, subscription), according to criteria that the fund manager will have defined himself, depending his priorities and the characteristics of his portfolio.",
+          "ETF Link: support service for ETF issuers. Placement of redemption/subscription orders by Authorized Participants, then validation by the Asset Manager. Management of ETF activity on the primary market. History and reporting."
+        ],
+        "environment": ["C# .Net", ".Net Core", "Javascript", "Typescript", "Angular", "SQL Server", "PostgreSQL", "Kubernetes", "Docker", "Git", "Git Flow"]
+      },
+      {
+        "company": "AXA (Microsoft)",
+        "location": {
+          "city": "Nanterre",
+          "country": "France"
+        },
+        "startDate": "2019-08",
+        "endDate": "2020-10",
+        "description": "Migration of a portfolio of AXA applications to Azure PaaS, in the Microsoft consulting team.",
+        "tasks": [
+          "Transformation of .NET and Node.js applications already in production to make them compatible with deployment on Azure.",
+          "App Services, Key vault, Application Insights, Cache Redis, Blob Storage."
+        ],
+        "environment": ["C# .NET", ".Net Core", "Blazor", "Node.js", "Azure", "Azure DevOps", "SQL Server"]
+      },
+      {
+        "company": "Vinci Construction",
+        "location": {
+          "city": "Rueil-malmaison",
+          "country": "France"
+        },
+        "startDate": "2017-11",
+        "endDate": "2019-07",
+        "description": "Web application for construction site supervisors. Budget management (scores, invoices, etc.)",
+        "tasks": [
+          "Tech lead of a team of 4 junior developers."
+        ],
+        "environment": ["C#", ".NET 4.7", "ASP.NET", "Entity Framework 6", "SQL Server", "Angular 4-7", "Redux", "Git", "Azure DevOps"]
+      },
+      {
+        "company": "Natixis",
+        "location": {
+          "city": "Paris",
+          "country": "France"
+        },
+        "startDate": "2017-01",
+        "endDate": "2017-11",
+        "description": "Web application for managing financial savings for operational or strategic users of the Banque Populaire and Caisse d'Epargne networks.",
+        "environment": ["C#", ".NET 4.5", "ASP.NET MVC 5", "Entity Framework 6", "SQL Server", "Angular 2-4", "Git", "Azure DevOps"]
+      },
+      {
+        "company": "Addstones-Vanilla",
+        "location": {
+          "city": "Paris",
+          "country": "France"
+        },
+        "startDate": "2016-03",
+        "endDate": "2016-12",
+        "description": "Web application for recruiters intended to offer technical and functional tests to candidates as interactive surveys.",
+        "environment": ["AngularJS", "NodeJS", "Firebase", "Git"]
+      },
+      {
+        "company": "LATelec GmbH",
+        "location": {
+          "city": "Hambourg",
+          "country": "Allemagne"
+        },
+        "startDate": "2013-03",
+        "endDate": "2015-12",
+        "description": "Development of two internal company applications: a CRM (relationship management with Airbus and suppliers), and an application for managing the design and production of electrical harnesses for Airbus aircrafts.",
+        "tasks": [
+          "Analysis of user needs",
+          "Design and development of evolutions, process automation and maintenance",
+          "Used by a hundred people within the LATECOERE group in France, Germany, Tunisia, Turkey and Mexico."
+        ],
+        "environment": ["C# .NET", "DevExpress", "MySQL", "Git"]
+      },
+      {
+        "company": "Sogeti",
+        "location": {
+          "city": "Bordeaux",
+          "country": "France"
+        },
+        "startDate": "2013-02",
+        "endDate": "2013-08",
+        "description": "End-of-study internship: End-to-end development of a Windows Phone application for playing and sharing multimedia content as part of a Home Networking system, in collaboration with LabRI (Bordeaux computer science research laboratory).",
+        "environment": ["C# .NET", "Windows Phone", "WPF", "Git"]
+      },
+      {
+        "company": "Postech University",
+        "location": {
+          "city": "Pohang",
+          "country": "Corée du sud"
+        },
+        "startDate": "2013-02",
+        "endDate": "2013-08",
+        "description": "2nd year internship in the programming language laboratory: Optimization of Plasma, a MapReduce framework written in OCaml.",
+        "tasks": [
+          "Interpretation and reading of scientific articles",
+          "Analysis of the source code of the Hadoop framework written in Java",
+          "Implemented sorting by keys and hash values"
+        ],
+        "environment": ["OCaml", "Java"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      {
+        "school": "ENSEIRB-MATMECA",
+        "diploma": "Master’s degree in Computer Science.",
+        "location": {
+          "city": "Bordeaux",
+          "country": "France"
+        },
+        "startDate": "2010-09",
+        "endDate": "2013-06",
+        "description": "Option Parallelism, Regulation and Distributed Calculation."
+      },
+      {
+        "school": "Prépa MPSI",
+        "location": {
+          "city": "La Rochelle",
+          "country": "France"
+        },
+        "startDate": "2008-09",
+        "endDate": "2010-06",
+        "description": "Intensive two-year study course (Math and Physics) preparing for the competitive entrance examinations to the French ‘Grandes Écoles’ (the top French and highly-selective institutions)"
+      }
+    ]
   }
 }
