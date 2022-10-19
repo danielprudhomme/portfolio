@@ -2,7 +2,7 @@ function dateToString(date) {
   const dateObj = new Date(date);
   const month = ('00'+(dateObj.getMonth() + 1)).slice(-2);
   const year = dateObj.getFullYear();
-  return `${month}/${year}`;
+  return `${month}.${year}`;
 }
 
 function StartEndDate(startDate, endDate = null) {

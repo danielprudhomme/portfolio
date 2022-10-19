@@ -1,13 +1,13 @@
 {
   "info": {
     "name": "Daniel PRUD'HOMME",
-    "description": "Fullstack Web Developer",
-    "description2": "C# .NET - Angular - React - Azure",
+    "description": "Fullstack Web Developer - 10 years exp.",
+    "description2": "C# .NET - Angular - Azure",
     "subdescription": "",
     "mail": "daniel.prudhomme.pro@gmail.com",
     "phone": "+33 6 71 14 45 66",
     "picture": "profile.jpg",
-    "address": "Haute-Savoie (74)",
+    "address": "Perrignier - 74550",
     "country": "France"
   },
   "about": "Holder of a Master’s degree in computer science, I worked as a fullstack web developer for 9 years for big companies (Société Générale, AXA, Vinci...). During these missions, I was able to analyze the functional needs of my clients, choose technical solutions, then design and carry out the development of the desired web applications until its deployment. I am now very interested in blockchain development and this is where I want to improve.",
@@ -15,7 +15,16 @@
     "title": "Skills",
     "resumeLocation": "top",
     "list": [
-      "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "SQL", "SQL Server", "Azure", "Docker", "Kubernetes"
+      "C# ",
+      ".NET",
+      "Angular",
+      "Javascript",
+      "Typescript",
+      "Node.js",
+      "Git",
+      "SQL",
+      "SQL Server",
+      "Azure"
     ]
   },
   "languages": {
@@ -47,19 +56,62 @@
     "title": "Work Experience",
     "list": [
       {
+        "company": "Trianon (la Mobilière)",
+        "location": {
+          "city": "Nyon",
+          "country": "Switzerland"
+        },
+        "startDate": "2022-05",
+        "endDate": "2023-02",
+        "title": "Tech lead Front-end (Angular) - C# .NET Developer",
+        "description": "Development of a pension fund management application. Dynamic generation of pension plans for potential customers.",
+        "tasks": [
+          "Tech lead Front-end: choice of technical solutions, code review, support, code harmonization on all the company's projects (eslint, common libraries, etc.)",
+          "Front : Angular 14, State management with NgRx Store",
+          "Web API : C# .NET, Domain driven design, CQRS"
+        ],
+        "environment": [
+          "C# .Net",
+          ".Net 6",
+          "DDD",
+          "CQRS",
+          "Javascript",
+          "Typescript",
+          "Angular 14",
+          "NgRx Store",
+          "SQL Server",
+          "Git",
+          "Figma"
+        ]
+      },
+      {
         "company": "Société Générale Securities Services",
         "location": {
           "city": "Colombes",
           "country": "France"
         },
         "startDate": "2020-11",
-        "endDate": "2021-12",
+        "endDate": "2022-02",
+        "title": "Fullstack developer (C# .NET Angular)",
         "description": "Fullstack development of B2B applications on the SG Market platform",
         "tasks": [
           "Fund Alerts: real-time alert service to inform fund managers of major movements in their assets (redemption, subscription), according to criteria that the fund manager will have defined himself, depending his priorities and the characteristics of his portfolio.",
           "ETF Link: support service for ETF issuers. Placement of redemption/subscription orders by Authorized Participants, then validation by the Asset Manager. Management of ETF activity on the primary market. History and reporting."
         ],
-        "environment": ["C# .Net", ".Net Core", "Javascript", "Typescript", "Angular", "SQL Server", "PostgreSQL", "Kubernetes", "Docker", "Git", "Git Flow"]
+        "environment": [
+          "C# .Net",
+          ".Net Core",
+          "Javascript",
+          "Typescript",
+          "Angular",
+          "SQL Server",
+          "PostgreSQL",
+          "Kubernetes",
+          "Docker",
+          "Git",
+          "Git Flow",
+          "Figma"
+        ]
       },
       {
         "company": "AXA (Microsoft)",
@@ -69,12 +121,21 @@
         },
         "startDate": "2019-08",
         "endDate": "2020-10",
+        "title": "Developer (C# .NET Azure DevOps)",
         "description": "Migration of a portfolio of AXA applications to Azure PaaS, in the Microsoft consulting team.",
         "tasks": [
           "Transformation of .NET and Node.js applications already in production to make them compatible with deployment on Azure.",
           "App Services, Key vault, Application Insights, Cache Redis, Blob Storage."
         ],
-        "environment": ["C# .NET", ".Net Core", "Blazor", "Node.js", "Azure", "Azure DevOps", "SQL Server"]
+        "environment": [
+          "C# .NET",
+          ".Net Core",
+          "Blazor",
+          "Node.js",
+          "Azure",
+          "Azure DevOps",
+          "SQL Server"
+        ]
       },
       {
         "company": "Vinci Construction",
@@ -84,11 +145,22 @@
         },
         "startDate": "2017-11",
         "endDate": "2019-07",
+        "title": "Fullstack developer (C# .NET Angular)",
         "description": "Web application for construction site supervisors. Budget management (scores, invoices, etc.)",
         "tasks": [
           "Tech lead of a team of 4 junior developers."
         ],
-        "environment": ["C#", ".NET 4.7", "ASP.NET", "Entity Framework 6", "SQL Server", "Angular 4-7", "Redux", "Git", "Azure DevOps"]
+        "environment": [
+          "C#",
+          ".NET 4.7",
+          "ASP.NET",
+          "Entity Framework 6",
+          "SQL Server",
+          "Angular 4-7",
+          "Redux",
+          "Git",
+          "Azure DevOps"
+        ]
       },
       {
         "company": "Natixis",
@@ -98,8 +170,18 @@
         },
         "startDate": "2017-01",
         "endDate": "2017-11",
+        "title": "Fullstack developer (C# .NET Angular)",
         "description": "Web application for managing financial savings for operational or strategic users of the Banque Populaire and Caisse d'Epargne networks.",
-        "environment": ["C#", ".NET 4.5", "ASP.NET MVC 5", "Entity Framework 6", "SQL Server", "Angular 2-4", "Git", "Azure DevOps"]
+        "environment": [
+          "C#",
+          ".NET 4.5",
+          "ASP.NET MVC 5",
+          "Entity Framework 6",
+          "SQL Server",
+          "Angular 2-4",
+          "Git",
+          "Azure DevOps"
+        ]
       },
       {
         "company": "Addstones-Vanilla",
@@ -109,24 +191,36 @@
         },
         "startDate": "2016-03",
         "endDate": "2016-12",
+        "title": "Fullstack developer (Node.js AngularJS)",
         "description": "Web application for recruiters intended to offer technical and functional tests to candidates as interactive surveys.",
-        "environment": ["AngularJS", "NodeJS", "Firebase", "Git"]
+        "environment": [
+          "AngularJS",
+          "NodeJS",
+          "Firebase",
+          "Git"
+        ]
       },
       {
         "company": "LATelec GmbH",
         "location": {
-          "city": "Hambourg",
-          "country": "Allemagne"
+          "city": "Hamburg",
+          "country": "Germany"
         },
         "startDate": "2013-03",
         "endDate": "2015-12",
+        "title": "C# .NET Developer",
         "description": "Development of two internal company applications: a CRM (relationship management with Airbus and suppliers), and an application for managing the design and production of electrical harnesses for Airbus aircrafts.",
         "tasks": [
           "Analysis of user needs",
           "Design and development of evolutions, process automation and maintenance",
           "Used by a hundred people within the LATECOERE group in France, Germany, Tunisia, Turkey and Mexico."
         ],
-        "environment": ["C# .NET", "DevExpress", "MySQL", "Git"]
+        "environment": [
+          "C# .NET",
+          "DevExpress",
+          "MySQL",
+          "Git"
+        ]
       },
       {
         "company": "Sogeti",
@@ -136,24 +230,34 @@
         },
         "startDate": "2013-02",
         "endDate": "2013-08",
-        "description": "End-of-study internship: End-to-end development of a Windows Phone application for playing and sharing multimedia content as part of a Home Networking system, in collaboration with LabRI (Bordeaux computer science research laboratory).",
-        "environment": ["C# .NET", "Windows Phone", "WPF", "Git"]
+        "title": "End-of-study internship",
+        "description": "End-to-end development of a Windows Phone application for playing and sharing multimedia content as part of a Home Networking system, in collaboration with LabRI (Bordeaux computer science research laboratory).",
+        "environment": [
+          "C# .NET",
+          "Windows Phone",
+          "WPF",
+          "Git"
+        ]
       },
       {
         "company": "Postech University",
         "location": {
           "city": "Pohang",
-          "country": "Corée du sud"
+          "country": "South Korea"
         },
-        "startDate": "2013-02",
-        "endDate": "2013-08",
-        "description": "2nd year internship in the programming language laboratory: Optimization of Plasma, a MapReduce framework written in OCaml.",
+        "startDate": "2012-06",
+        "endDate": "2012-08",
+        "title": "2nd year internship",
+        "description": "In the programming language laboratory: Optimization of Plasma, a MapReduce framework written in OCaml.",
         "tasks": [
           "Interpretation and reading of scientific articles",
           "Analysis of the source code of the Hadoop framework written in Java",
           "Implemented sorting by keys and hash values"
         ],
-        "environment": ["OCaml", "Java"]
+        "environment": [
+          "OCaml",
+          "Java"
+        ]
       }
     ]
   },

@@ -1,21 +1,30 @@
 {
   "info": {
     "name": "Daniel PRUD'HOMME",
-    "description": "Développeur web fullstack",
-    "description2": "C# .NET - Angular - React - Azure",
+    "description": "Développeur web fullstack - 10 ans d'exp.",
+    "description2": "C# .NET - Angular - Azure",
     "subdescription": "",
     "mail": "daniel.prudhomme.pro@gmail.com",
     "phone": "+33 6 71 14 45 66",
     "picture": "profile.jpg",
-    "address": "Haute-Savoie (74)",
+    "address": "Perrignier - 74550",
     "country": "France"
   },
-  "about": "Titulaire d’un diplôme d’ingénieur en informatique, j'ai travaillé en tant que développeur web fullstack depuis 9 ans pour des grands comptes (Société générale, AXA, Vinci...). Lors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors. Fort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
+  "about": "Titulaire d’un diplôme d’ingénieur en informatique, j'ai travaillé en tant que développeur web fullstack depuis 10 ans pour des grands comptes (Société générale, AXA, Vinci...). Lors de ces missions, j’ai su analyser les besoins fonctionnels de mes clients, choisir des solutions techniques, puis concevoir et réaliser le développement de l'application web désirée jusqu’à son déploiement. J’ai aussi eu à diriger une équipe de développeurs juniors. Fort de mon expérience à l’international, j’ai l’habitude de travailler en anglais.",
   "skills": {
     "title": "Compétences",
     "resumeLocation": "top",
     "list": [
-      "C# .NET", ".NET Core", "Node.js", "Javascript", "Typescript", "Angular", "React", "Git", "SQL", "SQL Server", "Azure", "Docker", "Kubernetes"
+      "C# ",
+      ".NET",
+      "Angular",
+      "Javascript",
+      "Typescript",
+      "Node.js",
+      "Git",
+      "SQL",
+      "SQL Server",
+      "Azure"
     ]
   },
   "languages": {
@@ -47,19 +56,62 @@
     "title": "Expériences",
     "list": [
       {
+        "company": "Trianon (la Mobilière)",
+        "location": {
+          "city": "Nyon",
+          "country": "Suisse"
+        },
+        "startDate": "2022-05",
+        "endDate": "2023-02",
+        "title": "Tech lead Front-end Angular - Développeur C# .NET",
+        "description": "Développement d'une application de gestion de caisses de pension. Génération dynamique de plan de prévoyance pour des clients potentiels.",
+        "tasks": [
+          "Tech lead Front-end : choix des solutions techniques, code review, accompagnement, harmonisation du code sur tous les projets de la société (eslint, librairies communes, ...)",
+          "Front : Angular 14, State management avec NgRx Store",
+          "Web API : C# .NET, Domain driven design, CQRS"
+        ],
+        "environment": [
+          "C# .Net",
+          ".Net 6",
+          "DDD",
+          "CQRS",
+          "Javascript",
+          "Typescript",
+          "Angular 14",
+          "NgRx Store",
+          "SQL Server",
+          "Git",
+          "Figma"
+        ]
+      },
+      {
         "company": "Société Générale Securities Services",
         "location": {
           "city": "Colombes",
           "country": "France"
         },
         "startDate": "2020-11",
-        "endDate": "2021-12",
+        "endDate": "2022-02",
+        "title": "Développeur fullstack C# .NET - Angular",
         "description": "Développement fullstack d'applications B2B sur la plateforme SG Market",
         "tasks": [
           "Fund Alerts : service d'alertes en temps réel pour informer les gérants de fonds des mouvements importants sur leurs actifs (rachat, souscription), selon des critères que le gérant de fonds aura lui-même défini, en fonction de ses priorités et des caractéristiques de son portefeuille.",
           "ETF Link : service d'accompagnement pour les émetteurs d'ETF. Placement des ordres de rachat/souscription par les authorized participants, puis validation par l'Asset Manager. Pilotage de l'activité des ETF sur le marché primaire. Historique et reporting."
         ],
-        "environment": ["C# .Net", ".Net Core", "Javascript", "Typescript", "Angular", "SQL Server", "PostgreSQL", "Kubernetes", "Docker", "Git", "Git Flow"]
+        "environment": [
+          "C# .Net",
+          ".Net Core",
+          "Javascript",
+          "Typescript",
+          "Angular",
+          "SQL Server",
+          "PostgreSQL",
+          "Kubernetes",
+          "Docker",
+          "Git",
+          "Git Flow",
+          "Figma"
+        ]
       },
       {
         "company": "AXA (Microsoft)",
@@ -69,12 +121,21 @@
         },
         "startDate": "2019-08",
         "endDate": "2020-10",
+        "title": "Développeur C# .NET - Azure DevOps",
         "description": "Migration d'un portefeuille d'applications du groupe AXA vers Azure PaaS, avec l'équipe de consultants Microsoft.",
         "tasks": [
           "Transformation d'applications .NET et Node.js déjà en production pour les rendre compatibles avec un déploiement sur Azure.",
           "Utilisation de : App Services, Key vault, Application Insights, Cache Redis, Blob Storage."
         ],
-        "environment": ["C# .NET", ".Net Core", "Blazor", "Node.js", "Azure", "Azure DevOps", "SQL Server"]
+        "environment": [
+          "C# .NET",
+          ".Net Core",
+          "Blazor",
+          "Node.js",
+          "Azure",
+          "Azure DevOps",
+          "SQL Server"
+        ]
       },
       {
         "company": "Vinci Construction",
@@ -84,11 +145,22 @@
         },
         "startDate": "2017-11",
         "endDate": "2019-07",
+        "title": "Développeur fullstack C# .NET - Angular",
         "description": "Application web PilotXS de gestion de chantier destinée aux conducteurs de travaux. Gestion du budget (pointages, factures, etc)",
         "tasks": [
           "Tech lead d'une équipe de 4 développeurs juniors."
         ],
-        "environment": ["C#", ".NET 4.7", "ASP.NET", "Entity Framework 6", "SQL Server", "Angular 4-7", "Redux", "Git", "Azure DevOps"]
+        "environment": [
+          "C#",
+          ".NET 4.7",
+          "ASP.NET",
+          "Entity Framework 6",
+          "SQL Server",
+          "Angular 4-7",
+          "Redux",
+          "Git",
+          "Azure DevOps"
+        ]
       },
       {
         "company": "Natixis",
@@ -98,8 +170,18 @@
         },
         "startDate": "2017-01",
         "endDate": "2017-11",
+        "title": "Développeur fullstack C# .NET - Angular",
         "description": "Application web Opale de pilotage de l’épargne financière à destination de profils d’utilisateurs opérationnels ou stratégiques des réseaux Banque Populaire et Caisse d’Epargne.",
-        "environment": ["C#", ".NET 4.5", "ASP.NET MVC 5", "Entity Framework 6", "SQL Server", "Angular 2-4", "Git", "Azure DevOps"]
+        "environment": [
+          "C#",
+          ".NET 4.5",
+          "ASP.NET MVC 5",
+          "Entity Framework 6",
+          "SQL Server",
+          "Angular 2-4",
+          "Git",
+          "Azure DevOps"
+        ]
       },
       {
         "company": "Addstones-Vanilla",
@@ -109,8 +191,14 @@
         },
         "startDate": "2016-03",
         "endDate": "2016-12",
+        "title": "Développeur fullstack Node.js - AngularJS",
         "description": "Développement d’une application web pour les recruteurs destinée à proposer des tests techniques et fonctionnels aux candidats sous forme de QCM interactifs.",
-        "environment": ["AngularJS", "NodeJS", "Firebase", "Git"]
+        "environment": [
+          "AngularJS",
+          "Node.js",
+          "Firebase",
+          "Git"
+        ]
       },
       {
         "company": "LATelec GmbH",
@@ -120,13 +208,19 @@
         },
         "startDate": "2013-03",
         "endDate": "2015-12",
+        "title": "Développeur C# .NET",
         "description": "Développement de deux applications internes à l'entreprise : un CRM (gestion de relation avec Airbus et les fournisseurs), et une application de gestion du design et de la production de harnais électriques destinés aux avions Airbus.",
         "tasks": [
           "Analyse des besoins des utilisateurs",
           "Design et développement d’évolutions, d’automatisation de processus et maintenance",
           "Utilisés par une centaine de personnes au sein du groupe LATECOERE en France, Allemagne, Tunisie, Turquie et Mexique."
         ],
-        "environment": ["C# .NET", "DevExpress", "MySQL", "Git"]
+        "environment": [
+          "C# .NET",
+          "DevExpress",
+          "MySQL",
+          "Git"
+        ]
       },
       {
         "company": "Sogeti",
@@ -136,8 +230,14 @@
         },
         "startDate": "2013-02",
         "endDate": "2013-08",
-        "description": "Stage de fin d’étude : Développement de bout en bout d’une application Windows Phone permettant de lire et de partager du contenu multimédia dans le cadre d’un système de Home Networking, en collaboration avec le LabRI (Laboratoire de recherche informatique de Bordeaux).",
-        "environment": ["C# .NET", "Windows Phone", "WPF", "Git"]
+        "title": "Stage de fin d’étude",
+        "description": "Développement de bout en bout d’une application Windows Phone permettant de lire et de partager du contenu multimédia dans le cadre d’un système de Home Networking, en collaboration avec le LabRI (Laboratoire de recherche informatique de Bordeaux).",
+        "environment": [
+          "C# .NET",
+          "Windows Phone",
+          "WPF",
+          "Git"
+        ]
       },
       {
         "company": "Postech University",
@@ -145,15 +245,19 @@
           "city": "Pohang",
           "country": "Corée du sud"
         },
-        "startDate": "2013-02",
-        "endDate": "2013-08",
-        "description": "Stage de 2ème année dans le laboratoire de langage de programmation : Optimisation de Plasma, un framework MapReduce écrit en OCaml.",
+        "startDate": "2012-06",
+        "endDate": "2012-08",
+        "title": "Stage de 2ème année",
+        "description": "Au sein du laboratoire de langage de programmation : Optimisation de Plasma, un framework MapReduce écrit en OCaml.",
         "tasks": [
           "Interprétation et lecture d’articles scientifiques",
           "Analyse du code source du framework Hadoop écrit en Java",
           "Implémentation du tri par clés et par valeurs de hachage"
         ],
-        "environment": ["OCaml", "Java"]
+        "environment": [
+          "OCaml",
+          "Java"
+        ]
       }
     ]
   },
