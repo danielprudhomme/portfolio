@@ -4,6 +4,7 @@ import './App.scss';
 import Footer from './components/layout/Footer';
 import Header from './components/layout/Header';
 import Resume from './components/resume/Resume';
+import resumePriscEn from './data/resume-prisc.en.json';
 import resumePriscFr from './data/resume-prisc.fr.json';
 import resumeEn from './data/resume.en.json';
 import resumeFr from './data/resume.fr.json';
@@ -20,15 +21,10 @@ function App() {
 
   let resume = null;
   if (person === 'prisc') {
-    resume = resumePriscFr;
+    resume = lang === 'fr' ? resumePriscFr : resumePriscEn;
   }
   else {
-    if (lang === 'fr') {
-      resume = resumeFr;
-    }
-    else {
-      resume = resumeEn;
-    }
+    resume = lang === 'fr' ? resumeFr : resumeEn;
   }
 
   return (

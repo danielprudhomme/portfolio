@@ -1,0 +1,213 @@
+{
+  "info": {
+    "name": "Priscilla CASTALDO",
+    "description": "International transportation coordinator",
+    "mail": "p.castaldo@hotmail.fr",
+    "phone": "+33 6 62 89 68 61",
+    "picture": "profile-prisc.jpg",
+    "address": "84 route du villard - 74550 Perrignier, FRANCE"
+  },
+  "skills": {
+    "title": "Software",
+    "resumeLocation": "bottom",
+    "list": [
+      "SAP",
+      "Akuiteo",
+      "AS400"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "list": [
+      {
+        "language": "French",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Fluent"
+      },
+      {
+        "language": "Spanish",
+        "level": "Fluent"
+      },
+      {
+        "language": "Italian",
+        "level": "Fluent"
+      },
+      {
+        "language": "German",
+        "level": "Conversational"
+      },
+      {
+        "language": "Portuguese",
+        "level": "Elementary"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "list": [
+      {
+        "startDate": "2022-03",
+        "endDate": "2023-01",
+        "title": "",
+        "description": "Parental leave"
+      },
+      {
+        "company": "Axens",
+        "location": {
+          "city": "Rueil-malmaison",
+          "country": "France"
+        },
+        "startDate": "2017-07",
+        "endDate": "2022-03",
+        "title": "Expediting and logistics coordinator",
+        "description": "Management of multiple projects from supplier expediting and multimodal transportation to factories and customers.",
+        "tasks": [
+          "Management of purchase requisition and purchase orders on SAP",
+          "Vendors follow-up (KOM, documents reminder, monthly planning analysis)",
+          "Development of transportation solutions based on delivery times, costs, tax laws and regulations",
+          "Anticipation, recommendation to project manager on packaging, restrictions, transportation constraints related to the country and material (including out of gauge, heavy parcels)",
+          "Issuance, management of licenses/import lists in China",
+          "Administrative tasks: export, import document issuance, reporting, invoicing",
+          "Client side delivery (Argentina, Saudi Arabia, China, Europe, Russia) or workshop (China, Romania)"
+        ]
+      },
+      {
+        "company": "Technip FMC",
+        "location": {
+          "city": "La Garenne Colombes",
+          "country": "France"
+        },
+        "startDate": "2015-11",
+        "endDate": "2017-06",
+        "title": "Logistics Coordinator",
+        "description": "Coordination of oversize material/equipment transportation from Europe, Asia, and the Middle East to yards in China and a site in Russia.",
+        "tasks": [
+          "Team leader of a team of 6 people",
+          "Approximately 120 shipments per week",
+          "Anticipation of country issues",
+          "Transport PO management",
+          "Transportation cost optimization",
+          "Reporting management (diffusion and update daily)",
+          "Various administrative tasks: checking compliance with transport documents and preparing export and import documents"
+        ]
+      },
+      {
+        "company": "Pumpen und Drucklufttechnik Technik Maschinenbau",
+        "location": {
+          "city": "Hamburg",
+          "country": "Germany"
+        },
+        "startDate": "2015-02",
+        "endDate": "2015-07",
+        "title": "Export and Commercial Transit Agent",
+        "description": "Resale and shipment of electrical industrial equipment to construction companies in North Africa, Sudan, and Saudi Arabia.",
+        "tasks": [
+          "Supplier negotiation (German, English, Italian)",
+          "Goods inspection and air/sea transportation organization",
+          "Administrative tasks: preparation of shipping documents (a-z), customs declaration under TELOS"
+        ]
+      },
+      {
+        "company": "Deutschakademie",
+        "location": {
+          "city": "Hamburg",
+          "country": "Germany"
+        },
+        "startDate": "2014-10",
+        "endDate": "2015-01",
+        "description": "Intensive German language courses"
+      },
+      {
+        "company": "Calypso Nautical Center",
+        "title": "Assistant Manager",
+        "location": {
+          "city": "Melipilla",
+          "country": "Chile"
+        },
+        "startDate": "2013-10",
+        "endDate": "2014-06",
+        "description": "Organization of boat courses and customer relations.",
+        "tasks": [
+          "Other: ecotourism - Jujuy region in Argentina",
+          "Woofing in a Quechua community - Daily agricultural activities and aid to the community's tourist development."
+        ]
+      },
+      {
+        "company": "SDV Industrial Projects (Bolloré Logistics)",
+        "title": "Industrial Project Forwarding Agent",
+        "location": {
+          "city": "La Garenne Colombes",
+          "country": "France"
+        },
+        "startDate": "2011-02",
+        "endDate": "2013-09",
+        "description": "Organization of sea/air transport of industrial material (+300T) from Europe to Africa and Brazil using FCL/LCL containers, Flat rack, and conventional methods for CAC 40 companies.",
+        "tasks": [
+          "Freight analysis for optimized logistics solution",
+          "Planning containers position at the factory",
+          "BL/LTA instructions and completion of various BIETC (taxed import documents)",
+          "Shipment tracking, customer reporting, and invoicing"
+        ]
+      },
+      {
+        "company": "Bolloré Africa Logistics",
+        "title": "Call Account and Dispute Manager",
+        "location": {
+          "city": "Puteaux",
+          "country": "France"
+        },
+        "startDate": "2009-02",
+        "endDate": "2011-02",
+        "description": "Administrative and financial management of ship owner portfolio.",
+        "tasks": [
+          "Upstream work with west African port agents",
+          "Invoicing port disbursements and services to ship owners",
+          "Tariff management and bank reconciliation",
+          "Dispute management"
+        ]
+      },
+      {
+        "company": "Forclum Energy Services (Eiffage)",
+        "title": "Industrial Project Forwarding Agent",
+        "location": {
+          "city": "Cergy-Pontoise",
+          "country": "France"
+        },
+        "startDate": "2007-09",
+        "endDate": "2008-09",
+        "description": "Organization and transportation of electrical equipment from Europe to Africa (Algeria and Benin) on construction sites for a turnkey contract with the client",
+        "tasks": [
+          "Purchasing follow-up, priority management, export document preparation, letter of credit, and dispute management"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      {
+        "school": "Leonard de Vinci University Center",
+        "diploma": "Management and Design of Logistics and Transport Chain Bachelor's degree",
+        "location": {
+          "city": "La Défense",
+          "country": "France"
+        },
+        "startDate": "2007-09",
+        "endDate": "2008-10"
+      },
+      {
+        "school": "Cergy-Pontoise University",
+        "diploma": "D.U.T Logistics and Transport Management",
+        "location": {
+          "city": "Argenteuil",
+          "country": "France"
+        },
+        "startDate": "2005-09",
+        "endDate": "2007-10"
+      }
+    ]
+  }
+}

@@ -3,8 +3,8 @@ import './Experience.scss';
 import ExperienceDetails from './ExperienceDetails';
 
 function Experience({ data }) {
-  const listItems = data?.list.map(experience =>
-    <ExperienceDetails key={experience.company} data={experience} />
+  const listItems = data?.list.map((experience, i) =>
+    <ExperienceDetails key={i} data={experience} />
   );
 
   const title = <h2>{data.title}</h2>;
