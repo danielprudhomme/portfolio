@@ -1,7 +1,7 @@
 {
   "info": {
     "name": "Priscilla CASTALDO",
-    "description": "International transportation coordinator",
+    "description": "International transport coordinator",
     "mail": "p.castaldo@hotmail.fr",
     "phone": "+33 6 62 89 68 61",
     "picture": "profile-prisc.jpg",
@@ -49,8 +49,28 @@
     "title": "Experience",
     "list": [
       {
+        "company": "Savana France",
+        "location": {
+          "city": "Thonon-les-bains",
+          "country": "France"
+        },
+        "startDate": "2023-03",
+        "title": "Logistics Coordinator",
+        "description": "Coordination of multimodal transport of phytosanitary products from supplier factories in China, India, and Europe to delivery sites for clients or subsidiaries in West Africa and Central Africa.",
+        "tasks": [
+          "Requesting quotation from suppliers and issuing purchase orders (mostly for hazardous products)",
+          "Preparing proforma invoices for clients",
+          "Coordination Bureau Veritas inspections before shipment",
+          "Freight instructions to the freight forwarder",
+          "Transport insurance instructions",
+          "Import/export L/C follow-up",
+          "Issuing the full set of shipping documents (packing list, certificate of origin, certificate of analysis, BESC, commercial invoice, certificate of insurance)",
+          "Check of supplier invoices and profit margin sheet"
+        ]
+      },
+      {
         "startDate": "2022-03",
-        "endDate": "2023-01",
+        "endDate": "2023-03",
         "title": "",
         "description": "Parental leave"
       },
@@ -63,12 +83,12 @@
         "startDate": "2017-07",
         "endDate": "2022-03",
         "title": "Expediting and logistics coordinator",
-        "description": "Management of multiple projects from supplier expediting and multimodal transportation to factories and customers.",
+        "description": "Management of multiple projects from supplier expediting and multimodal transport to factories and customers.",
         "tasks": [
           "Management of purchase requisition and purchase orders on SAP",
           "Vendors follow-up (KOM, documents reminder, monthly planning analysis)",
-          "Development of transportation solutions based on delivery times, costs, tax laws and regulations",
-          "Anticipation, recommendation to project manager on packaging, restrictions, transportation constraints related to the country and material (including out of gauge, heavy parcels)",
+          "Development of transport solutions based on delivery times, costs, tax laws and regulations",
+          "Anticipation, recommendation to project manager on packaging, restrictions, transport constraints related to the country and material (including out of gauge, heavy parcels)",
           "Issuance, management of licenses/import lists in China",
           "Administrative tasks: export, import document issuance, reporting, invoicing",
           "Client side delivery (Argentina, Saudi Arabia, China, Europe, Russia) or workshop (China, Romania)"
@@ -83,13 +103,13 @@
         "startDate": "2015-11",
         "endDate": "2017-06",
         "title": "Logistics Coordinator",
-        "description": "Coordination of oversize material/equipment transportation from Europe, Asia, and the Middle East to yards in China and a site in Russia.",
+        "description": "Coordination of oversize material/equipment transport from Europe, Asia, and the Middle East to yards in China and a site in Russia.",
         "tasks": [
           "Team leader of a team of 6 people",
           "Approximately 120 shipments per week",
           "Anticipation of country issues",
           "Transport PO management",
-          "Transportation cost optimization",
+          "Transport cost optimization",
           "Reporting management (diffusion and update daily)",
           "Various administrative tasks: checking compliance with transport documents and preparing export and import documents"
         ]
@@ -106,7 +126,7 @@
         "description": "Resale and shipment of electrical industrial equipment to construction companies in North Africa, Sudan, and Saudi Arabia.",
         "tasks": [
           "Supplier negotiation (German, English, Italian)",
-          "Goods inspection and air/sea transportation organization",
+          "Goods inspection and air/sea transport organization",
           "Administrative tasks: preparation of shipping documents (a-z), customs declaration under TELOS"
         ]
       },
@@ -178,7 +198,7 @@
         },
         "startDate": "2007-09",
         "endDate": "2008-09",
-        "description": "Organization and transportation of electrical equipment from Europe to Africa (Algeria and Benin) on construction sites for a turnkey contract with the client",
+        "description": "Organization and transport of electrical equipment from Europe to Africa (Algeria and Benin) on construction sites for a turnkey contract with the client",
         "tasks": [
           "Purchasing follow-up, priority management, export document preparation, letter of credit, and dispute management"
         ]

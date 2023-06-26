@@ -45,8 +45,27 @@
     "title": "Expériences",
     "list": [
       {
+        "company": "Savana France",
+        "location": {
+          "city": "Thonon-les-bains (74)"
+        },
+        "startDate": "2023-03",
+        "title": "Coordinatrice logistique",
+        "description": "Coordination transport multimodal de produits phytosanitaires depuis usine fournisseur en Chine, Inde, Europe à livraison sur site clients ou filiales en Afrique de l'ouest et Afrique centrale.",
+        "tasks": [
+          "Demande de prix fournisseur et établissement du bon de commande (produits majoritairement dangereux)",
+          "Établissement des factures proforma client",
+          "Coordination inspections Bureau Veritas avant embarquement",
+          "Instructions fret au transitaire",
+          "Instructions assurance transport",
+          "Suivi des crédits documentaires import / export",
+          "Émission liasse documentaire transport (liste de colisage, certificat d'origine, certificat d'analyse, BESC, facture commerciale, certificat d'assurance)",
+          "Gestion des factures fournisseurs et de la feuille de marge"
+        ]
+      },
+      {
         "startDate": "2022-03",
-        "endDate": "2023-01",
+        "endDate": "2023-03",
         "title": "",
         "description": "Congé parental"
       },
